@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
                 case 1:
                     return "Fauna";
                 case 2:
-                    return "Acerca de";
+                    return "Historial";
             }
             return null;
         }
