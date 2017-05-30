@@ -29,16 +29,16 @@
                     android:id="@+id/radioButton5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="RadioButton" />
+                    android:text="Arbol" />
 
                 <RadioButton
                     android:id="@+id/radioButton6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="RadioButton"
+                    android:text="Planta"
                     android:layout_alignParentTop="true"
-                    android:layout_toEndOf="@+id/radioButton5"
-                    android:layout_marginStart="38dp" />
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="99dp" />
 
             </RelativeLayout>
 
@@ -102,20 +102,22 @@
                 android:layout_height="match_parent"
                 android:layout_weight="0.30">
 
-                <CheckBox
-                    android:id="@+id/checkBox5"
+                <RadioButton
+                    android:id="@+id/radioButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
                     android:text="Flores" />
 
-                <CheckBox
-                    android:id="@+id/checkBox4"
+                <RadioButton
+                    android:id="@+id/radioButton2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentTop="true"
-                    android:layout_marginEnd="95dp"
-                    android:text="Frutos" />
+                    android:layout_marginEnd="51dp"
+                    android:text="Semilla" />
             </RelativeLayout>
 
             <EditText
